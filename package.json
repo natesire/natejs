@@ -29,5 +29,8 @@
   },
   "transform": {
     "^.+\\.tsx?$": "ts-jest"
-  }
+  },
+  "excludes": [
+    "node_modules"
+  ]
 }
