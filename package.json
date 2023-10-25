@@ -4,7 +4,7 @@
   "description": "My library code in an NPM package",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test",
+    "test": "jest",
     "build": "tsc"
   },
   "repository": {
