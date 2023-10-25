@@ -1,0 +1,19 @@
+{
+  "name": "natejs4",
+  "version": "4.0.0",
+  "description": "My library code in an NPM package",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natesire/natejs4.git"
+  },
+  "author": "Nate Sire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natesire/natejs4/issues"
+  },
+  "homepage": "https://github.com/natesire/natejs4#readme"
+}
