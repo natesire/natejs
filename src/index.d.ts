@@ -1,1 +1,4 @@
-export default function helloWorld(): string;
+export default class Frontend {
+    constructor();
+    fetch(): void;
+}
