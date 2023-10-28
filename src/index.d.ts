@@ -1,1 +1,1 @@
-export declare function helloWorld(): string;
+export default function helloWorld(): string;
