@@ -3,10 +3,11 @@
   "version": "4.0.0",
   "description": "My library code in an NPM package",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "pretest": "npm run build",
     "test": "jest",
-    "build": "tsc ./src"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,8 @@
   },
   "excludes": [
     "node_modules"
-  ]
+  ],
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }
