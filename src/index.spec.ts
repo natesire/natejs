@@ -1,4 +1,4 @@
-import Frontend from ".";
+import Frontend from "./index.js";
 
 it("should return 'Hello World!'", () => {
   let frontend = new Frontend();

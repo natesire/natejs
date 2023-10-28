@@ -4,17 +4,16 @@ export default class Frontend {
     console.log('Frontend constructor');
   }
 
-  fetch(url?: string) {
+  async fetch(url?: string) {
     // node fetch get url
-    fetch('http://localhost:3000/', {
+    let f = await fetch('http://localhost:3000/', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
     },
-  })
-    .then((res) => res.json())
-    .then((data) => {
-      console.log(data);
-    });
+  });
+
+  let j = await f.json();
+    
   }
 }
